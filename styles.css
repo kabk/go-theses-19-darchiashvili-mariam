@@ -1,0 +1,109 @@
+* {
+	margin:0;
+	padding:0;
+
+}
+
+html, body { height: 100% }
+html { background: black }
+body {
+
+	font-family: 'droid-sans', sans-serif;;
+	font-weight: 300;
+	background-color: #0E01C6;
+	height: 100vh;
+	font-size: 9pt;
+	line-height: 16pt;
+	color: red;
+
+	}
+
+  .verticaltext {
+      transform: rotate(-90deg);
+      transform-origin: right, top;
+      -ms-transform: rotate(-90deg);
+      -ms-transform-origin:right, top;
+      -webkit-transform: rotate(-90deg);
+      -webkit-transform-origin:right, top;
+}
+
+  #abstract {
+    margin-left: 83%;
+    margin-top: 2% ;
+    position: fixed;
+    font-size: 9pt;
+    line-height: 11pt;
+    width: 3%;
+    color: white;
+    letter-spacing: 0.3px;
+    z-index: 200;
+    background-color: black;
+    border: thin solid black;
+    border-width: 20px;
+  }
+
+  #sources {
+    margin-left: 83%;
+    margin-top: 2% ;
+    position: fixed;
+    font-size: 9pt;
+    line-height: 11pt;
+    width: 3%;
+    color: white;
+    letter-spacing: 0.3px;
+    z-index: 200;
+    background-color: black;
+    border: thin solid black;
+    border-width: 20px;
+  }
+
+  #aboutproject {
+    margin-left: 83%;
+    margin-top: 2% ;
+    position: fixed;
+    font-size: 9pt;
+    line-height: 11pt;
+    width: 3%;
+    color: white;
+    letter-spacing: 0.3px;
+    z-index: 200;
+    background-color: black;
+    border: thin solid black;
+    border-width: 20px;
+  }
+  #print {
+  	margin-left: 83%;
+  	margin-top: 2% ;
+  	position: fixed;
+  	font-size: 9pt;
+  	line-height: 11pt;
+  	width: 3%;
+  	color: white;
+  	letter-spacing: 0.3px;
+  	z-index: 200;
+  	background-color: black;
+  	border: thin solid black;
+  	border-width: 20px;
+  }
+
+  #maintext {
+
+  	letter-spacing: 0.3px;
+  	border: thin solid white;
+  	border-width: 20px;
+  	background-color: white;
+  	max-width: 50%;
+  	font-size: 9pt;
+  	line-height: 13pt;
+  	width: 50%;
+    height: 70%;
+    max-height: 80%;
+  	color: black;
+  	z-index: 3;
+  	top: 20vh;
+  	 left: 61vh;
+      bottom:1.5%;
+      position:fixed;
+      overflow-y:scroll;
+      overflow-x:hidden;
+  }
