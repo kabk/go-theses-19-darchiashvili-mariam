@@ -1,139 +1,162 @@
-* {
-	margin:0;
-	padding:0;
+/*@@media print {
 
-}
 
-html, body { height: 100% }
-html { background: black }
-body {
 
-	font-family: 'Oroban-Hermonthica', serif;;
-	font-weight: 300;
-	background-color: #0E01C6;
-	height: 100vh;
-	font-size: 12pt;
-	line-height: 16pt;
-	color: red;
+  @page {
+    size: A4 portrait;
+  }
+}*/
+  * {
+  	margin:0;
+  	padding:0;
 
-	}
-
-  .verticaltext {
-      transform: rotate(-90deg);
-      transform-origin: right, top;
-      -ms-transform: rotate(-90deg);
-      -ms-transform-origin:right, top;
-      -webkit-transform: rotate(-90deg);
-      -webkit-transform-origin:right, top;
-}
-
-  #abstract {
-    margin-left: 5vh;
-    margin-top: 18vh ;
-    position: fixed;
-    font-size: 25pt;
-    text-transform: uppercase;
-    text-align: right;
-    line-height: 11pt;
-    width: 5%;
-    color: white;
-    letter-spacing: 0.6px;
-    z-index: 200;
-    /*background-color: black;
-    border: thin solid black;*/
-    border-width: 20px;
   }
 
-  #sources {
-    margin-left: 5vh;
-    margin-top: 90vh ;
-    position: fixed;
-    font-size: 25pt;
-    text-transform: uppercase;
-    line-height: 11pt;
-    width: 5%;
-    color: white;
-    letter-spacing: 0.6px;
-    z-index: 200;
-    /*background-color: black;
-    border: thin solid black;*/
-    border-width: 20px;
-  }
-
-  #aboutproject {
-    margin-left: 80vw;
-    margin-top: 28vh ;
-    position: fixed;
-    font-size: 25pt;
-    text-transform: uppercase;
-    text-align: right;
-    line-height: 11pt;
-    width: 30%;
-    color: white;
-    letter-spacing: 0.6px;
-    z-index: 200;
-    /*background-color: black;
-    border: thin solid black;*/
-    border-width: 20px;
-  }
-  #print {
-  	margin-left: 93vw;
-  	margin-top: 90vh ;
-  	position: fixed;
-    font-size: 25pt;
-    text-transform: uppercase;
-    text-align: left;
-  	line-height: 11pt;
-  	width: 5%;
-  	color: white;
-  	letter-spacing: 0.6px;
-  	z-index: 200;
-  	/*background-color: black;
-  	border: thin solid black;*/
-  	border-width: 20px;
-  }
-
-  #chapterselection{
-    margin-left: 80vw;
-  	margin-top: 30vh ;
-  	position: fixed;
-  	font-size: 9pt;
-  	line-height: 11pt;
-  	width: 18%;
-  	color: white;
-  	letter-spacing: 0.3px;
-  	z-index: 200;
-  	background-color: black;
-  	border: thin solid black;
-  	border-width: 20px;
-    
-  }
-
-    .select{
-      text-decoration: none;
-    }
+  html, body { height: 100% }
+  html { background: black }
+  body {
 
 
-  .maintext {
+    font-family: 'SuisseIntlTrial-Book' sans-serif;
+  	font-weight: 300;
+  	background-color: #242424;
+  	height: 100vh;
+  	font-size: 12pt;
+  	line-height: 16pt;
+  	color: red;
 
-  	letter-spacing: 0.3px;
-  	border: thin solid white;
-  	border-width: 30px;
-  	background-color: white;
-  	max-width: 45%;
-  	font-size: 25pt;
-    font-weight: 400;
-  	line-height: 27pt;
-    text-indent: 40px;
-  	width: 45%;
-    height: 70%;
-    max-height: 80%;
-  	color: black;
-  	z-index: 3;
-  	top: 20vh;
-  	 left: 70vh;
-      bottom:1.5%;
-      position:fixed;
-      overflow-y:scroll;
-      overflow-x:hidden;
-  }
+  	}
+
+
+      #title{
+        margin-left: 5vw;
+        margin-top: 4vh ;
+        font-family: 'Oroban-Hermonthica', serif;
+        position: fixed;
+        font-size: 25pt;
+        text-transform: uppercase;
+        text-align: left;
+        line-height: 11pt;
+        width: 40%;
+        color: white;
+        letter-spacing: 0.6px;
+        z-index: 200;
+        /*background-color: black;
+        border: thin solid black;*/
+        border-width: 20px;
+      }
+
+
+			/*#abstracttext {
+				background-color: #EAEAEA;
+				left: -200%;
+				width: 100vw;
+				height: 100vh;
+			}*/
+
+      #footnotes {
+        margin-left: 65vw;
+        font-size: 20pt;
+        font-family: 'Oroban-Hermonthica', serif;
+        line-height: 20pt;
+        color: white;
+        letter-spacing: 0.6px;
+        background-color: black;
+				position:fixed;
+				overflow-y:scroll;
+				overflow-x:hidden;
+				width: 35%;
+        height: 100%;
+				border: thin solid black;
+      	border-width: 20px;
+      }
+
+      #images{
+				position:fixed;
+				overflow-y:scroll;
+				overflow-x:hidden;
+				background-color: #1C1C1C;
+				width: 60vw;
+        height: 100%;
+				margin-left: 5vw;
+				margin-top: 8vh;
+			}
+
+			/*.pic > img:hover {
+  width: 500px;
+  height: 200px;
+	z-index: 300;
+}*/
+
+
+			#print {
+      	margin-left: 93vw;
+      	margin-top: 90vh ;
+      	position: fixed;
+        font-size: 25pt;
+        text-transform: uppercase;
+        font-family: 'Oroban-Hermonthica', serif;
+        text-align: left;
+      	line-height: 11pt;
+      	width: 5%;
+      	color: white;
+      	letter-spacing: 0.6px;
+      	z-index: 200;
+      	/*background-color: black;
+      	border: thin solid black;*/
+      	border-width: 20px;
+      }
+
+      #menu{
+        left: 37,5vw;
+      	margin-top: 30vh ;
+				bottom: 2%;
+      	position: fixed;
+        font-family: 'Oroban-Hermonthica', serif;
+				text-transform: uppercase;
+      	font-size: 10pt;
+      	line-height: 11pt;
+      	width: 48vw;
+				height: 5vh;
+      	color: white;
+      	letter-spacing: 0.3px;
+      	z-index: 200;
+      	background-color: black;
+      	border: thin solid black;
+      	border-width: 5px;
+
+      }
+
+        .select{
+          text-decoration: none;
+        }
+
+				img {
+					max-width: 100%;
+					max-height: 100%;
+				}
+
+      .maintext {
+
+      	letter-spacing: 0.3px;
+        font-weight: 300;
+      	border: thin solid white;
+      	border-width: 30px;
+      	background-color: white;
+      	max-width: 45%;
+      	font-size: 15pt;
+        font-weight: 400;
+      	line-height: 18pt;
+        text-indent: 40px;
+      	width: 43%;
+        height: 70%;
+        max-height: 80%;
+      	color: black;
+      	z-index: 100;
+      	top: 20vh;
+      	 left: 38vw;
+          /*bottom:1.5%;*/
+          position:fixed;
+          overflow-y:scroll;
+          overflow-x:hidden;
+      }
