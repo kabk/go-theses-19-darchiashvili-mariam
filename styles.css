@@ -28,6 +28,8 @@
   	}
 
 
+
+
       #title{
         margin-left: 5vw;
         margin-top: 4vh ;
@@ -82,7 +84,17 @@
 				margin-top: 8vh;
 			}
 
-
+      #image-large {
+        position: fixed;
+        top: 0; left: 0;
+        bottom: 0; right: 0;
+        background-color: rgba(0,0,0,0.7);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: none;
+        z-index: 999999999 !important;
+      }
 
 			#printbutton {
       	margin-left: 10vw;
@@ -99,6 +111,31 @@
       	z-index: 900;
       	border-width: 20px;
       }
+
+
+            embed {
+          position: fixed;
+          top: 20px; left: 20px;
+          bottom: 20px; right: 20px;
+          width: calc(100% - 40px);
+          height: calc(100% - 40px);
+          z-index: 99999999999999 !important;
+          display: none;
+      }
+      embed.show { display: inline-block }
+
+      #printoverlay {
+          position: fixed;
+          top: 0; left: 0;
+          bottom: 0; right: 0;
+          content: '';
+          background: rgba(0,0,0,0.7);
+          display: none;
+      }
+
+      #printoverlay.show { display: inline-block }
+
+
 
       #menu{
         left: 37,5vw;

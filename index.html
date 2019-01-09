@@ -6,13 +6,15 @@
     <link href="styles.css" rel="stylesheet">
     <!-- <link href="printstyle.css" rel="stylesheet"> -->
     <link rel="icon" type="image/png" href="icon.png"/>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="js/jquery-lazyload.min.js"></script>
-    <script src="js/all.js"></script>
+    <script src="all.js"></script>
   </head>
   <body>
+
+      <a href="#" onclick="showPrintPreview(event);">print</a>
           <div id="title" > Sterile Dogma</div>
-          <div id="print" style="margin-left: 3vw; z-index: 900;"  onclick="window.print();return false;"> Print</div>
+
           <div  style="z-index: 900;" id="chapterselection" class="select">
 
             <select  id="menu" onchange="window.open(this.value,'_self');">
@@ -27,6 +29,30 @@
 
 
           </div>
+
+
+          <div id="printoverlay"></div>
+  <embed id="printpreview" src="Thesis.pdf" type="application/pdf" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
             <div id="abstracttext">
 
@@ -87,10 +113,10 @@ Jarrod. (2017, July 24). Smile or Die: The Dark Side of Positive Thinking. Retri
 <br><br>
 Land, N., Mackay, R., & Brassier, R. (2018). Fanged Noumena: Collected writings 1987-2007. Falmouth: Urbanomic.
 <br><br>
-Lovecraft, H.P. Supernatural Horror in Literature (n.d.). Retrieved from https://goo.gl/Gjvyqe
-<br><br>
-Martin, A. (2010, August 10). The Phenomenology of Ugly. Retrieved from https://opinionator.blogs.nytimes.com/2010/08/10/the-phenomenology-of-ugly/
-<br><br>
+<p id="ron">Lovecraft, H.P. Supernatural Horror in Literature (n.d.). Retrieved from https://goo.gl/Gjvyqe</p>
+<br>
+<p id="son">Martin, A. (2010, August 10). The Phenomenology of Ugly. Retrieved from https://opinionator.blogs.nytimes.com/2010/08/10/the-phenomenology-of-ugly/</p>
+<br>
 Mary C. (2011). Lamia Ph.D. The Complexity of Fear, Psychology Today Retrieved from https://goo.gl/7vmn7Z
 <br><br>
 Nietzsche, F. W., Kaufmann, W. A., & Nietzsche, F. W. (1969). On the genealogy of morals. New York: Vintage Books.
@@ -143,9 +169,9 @@ Zamyatin, Y. I., Glenny, M., & Guerney, B. G. (1987). We. London: Penguin Books
             <a name="chapter2">
               <span class="chaptertitle">THE GOOD UGLINESS OF NATURE</span>
 
-            In order to begin discussing relevance and materiality of Nocturnus we should first pose it in front of us as philosopher’s stone; count its angles, faces and reflections. Being translated from latin as “of the night” it gives us a big spectre of elements to bring to discussion at this table, moreover we have already started with one of them in the previous chapter. Fear is the basis of it all and having touched the fundament of the thesis we can now slowly come back to its main floorpan - night. Thus, further in this paper Nocturnus and fear will be inseparable due to their nature. Now it’s time to talk about the wild man, the wild times and the wild material. <br><br>
+            In <a class="footnote-ref" data-link="ron">order</a> to begin discussing relevance and materiality of Nocturnus we should first pose it in front of us as philosopher’s stone; count its angles, faces and reflections. Being translated from latin as “of the night” it gives us a big spectre of elements to bring to discussion at this table, moreover we have already started with one of them in the previous chapter. Fear is the basis of it all and having touched the fundament of the thesis we can now slowly come back to its main floorpan - night. Thus, further in this paper Nocturnus and fear will be inseparable due to their nature. Now it’s time to talk about the wild man, the wild times and the wild material. <br><br>
             As a prologue to this and following chapter we must say that avoiding the lure of pure psychological ideation and analysis of fear, this thesis corroborates the criticism towards specific trends existing in our era that would rather focus on the individual dimension of fear, thus missing its social aspects. Fear can not and must not ever be reduced to its emotional actuality, on the contrary, it must rather be regarded by anthropologists as the prime mover of rational cognition in treacherous or fatal conditions. <br><br>
-            Night and love for it (also known as nyctophilia) are a complex matter, especially in our daylight-based civilisation. If we start with Nyctophilia itself, based on the latin origins of “Nycto” and “Philia” we can safely state that it is literally love for the darkness and night. But moreover (also from a personal perspective of a nyctophiliac myself) it is also a feeling of one’s belong in the night. As a side-effect people with nyctophilia tend to have attraction to darkness, cold rainy days and silence as well. And on top of that it also is utterly crucial to articulate the fact that people who love darkness, on the contrary to the common belief and stereotypes, do not necessarily become Gothic or only watch horror movies with a heavy metal music as their soundtrack for life. I believe that what defines the love for darkness is precisely the ability to discover, distinguish and treasure it even within the light of colourful lamps during the day, thus portraying a somewhat inevitability of its’ presence in a nyctophiliacs’ life that may have both positive or negative effects on such people. A person, defining himself this way is becoming a microscopic, enhanced case study for how Nocturnus and Fear influence our lives. <br><br>
+            <a class="footnote-ref" data-link="son">Night</a> and love for it (also known as nyctophilia) are a complex matter, especially in our daylight-based civilisation. If we start with Nyctophilia itself, based on the latin origins of “Nycto” and “Philia” we can safely state that it is literally love for the darkness and night. But moreover (also from a personal perspective of a nyctophiliac myself) it is also a feeling of one’s belong in the night. As a side-effect people with nyctophilia tend to have attraction to darkness, cold rainy days and silence as well. And on top of that it also is utterly crucial to articulate the fact that people who love darkness, on the contrary to the common belief and stereotypes, do not necessarily become Gothic or only watch horror movies with a heavy metal music as their soundtrack for life. I believe that what defines the love for darkness is precisely the ability to discover, distinguish and treasure it even within the light of colourful lamps during the day, thus portraying a somewhat inevitability of its’ presence in a nyctophiliacs’ life that may have both positive or negative effects on such people. A person, defining himself this way is becoming a microscopic, enhanced case study for how Nocturnus and Fear influence our lives. <br><br>
             However, with all that said, almost no-one can argue against the fact that at the moment we simply biologically can not live only during the night as much as some of us may wish that. On top of that majority will argue that we might not have survived as biological species if we would only function at night in the first steps of humanity. As one of the simplest arguments to that can be the fact that mornings, with the exposure to light, let our SCN send signals to hike the temperature of our body and produce hormones such as cortisol, as well as SCN also responds to sunlight with postponing the release of other hormones such as melatonin, which stays up all night also promoting sleep and is produced as our eyes signal the SCN that we are surrounded by darkness. As simple and argumentative as it is we still can speculate that nocturnal life-style could still have been possible for us if certain settings of human development have been different. Our planet is already inhabited by perfect examples of this being possible with a whole list of nocturnal creatures that either stayed in the deep see since Palaeozoic Era or evolved this way over centuries. These animals generally have highly developed senses of hearing, smell, and specially adapted eyesight which help creatures like the Helicoverpa zea moths avoid predators. However, what’s most important is if in our well-established world there is still an opportunity for change? And yes, there is. We live in an era where massive numbers of species - from feral dogs and deers, to East African sea cows - have all made a conversion from flexible or diurnal lifestyles to nocturnal ones. Where mammals have a possibility to function nocturnally, and where they are continuously ringed by humanity, they fairly eagerly begin sleeping/going underground for the period of the day. This suggests that we can argue that no statements are solid as human species could have also adapted and evolved differently throughout history if the circumstances would be different around us. Putting it radically, it might have been, that if the local setting of the millions of years back would turn us into nocturnal creatures - we wouldn’t be facing problematics that I’m trying to approach in this thesis. <br><br>
             However, facing reality, we have to thank evolution for tying us to the daylight as it gave us soil, engine and drive for development. Part of which is fear. “The oldest and strongest emotion of mankind is fear, and the oldest and strongest kind of fear is fear of the unknown” - so from an evolutionary viewpoint, the fear response is an absolutely necessary part of our mental system. It is the way we recognise and avoid threats. “Since fear helps protect you it is therefore adaptive, functional, and necessary.” Linking deeply to the experience of uncertainty—it makes us anticipate that we might feel pain/hunger or anything threatening to us soon, and it orients us to escape and increase our distance from the feared stimulus. This is also why it is highly amusing to watch the ideology of positive living strive in stating that fear is just a construction that does not exist, as what happens in reality - they try to increase distance from the very same “feared stimulus”. <br><br>
             Since that response is tied in with natural selection, certain cues—such as snake or cat-eye patterns, spider-like objects, and Nocturnus (where the snakes, panthers, and spiders are found)—more easily invoke that emotion. This is the result of generation upon generation of early humans reacting to and subsequently preparing for dangers such as these. That's why many ancient threats— weather threats, uncontrolled fire, spiders, snakes, predators, and night—are having higher chances to instigate a negative response, even in small children, rather than contemporary threats like cars, nuclear or chemical weapons, or mortars do. Here is the moment where the side opposing me can have its fare share of argumentativeness. Although, the question on that bank of barricades becomes is then our survival instinct failing us? One may argue - Unfortunately, what did its; job for us as cave people doesn’t as matter of course function the same in the 21st century due to the enlarged intricacy of life that has evolved, humankind became more civilised and as technological advancements have changed our individual, social, and work lives thus shifting the notion of survival dramatically nowadays. I’ve seen some people believe that  our existence is no longer about staying alive by fighting or overcoming challenges such as critical threats, we no longer have to fear to have a roof over our heads as a result of survival instinct and the same goes for the clothes on our back and food at the table. Their argument lies in these essentials not being changed over years, but becoming less urgent in comparison to the complex contemporary fears of today. The fight-or-flight reaction to threats, they say, is far too simplistic to effectively overcome many of those we are confronted with today. Unlike threats of the past, today’s are often neither immediate, foreseeable, or understandable, much less controllable. In fact, not only is this hard-wired response of fear often not effective, but it can be counterproductive to our survival. However, instead of confronting these statements by diminishing the role of the “modern unforeseeable threats” we have to say that the problematic of todays behaviour towards Nocturnus and fear is way to radical and segregative. It is simply unreasonable to fight against the instinctive, anthropological fears and saying “they are not relevant anymore compared to all the psychological struggles of today” because it is the same algorithm our brain operated millions of years ago for us to escape heavy rain and predators and today, for us not get under the car on a highway. We still have to survive the weather conditions, we still fear of being attacked by someones dogs, we still are scared of the night, be it a bat attacking you for the sake of fun or a criminal trying to still your TV. The cruciality of accepting the fears and Nocturnus lies in the fact that instead of stepping on the same trap now, we should rather learn from the experiences of people before us. Not on someones short-told story, but on someone’s book that is the history of humankind. <br><br>
@@ -292,6 +318,6 @@ Simply look at the world Black next to its’ etymology. Next to the more common
 
           </div>
 
-
+          <div id="image-large"></div>
   </body>
 </html>
