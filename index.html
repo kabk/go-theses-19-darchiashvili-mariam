@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sterile Dogma</title>
+    <link href="styles.css" rel="stylesheet">
+    <!-- <link href="printstyle.css" rel="stylesheet"> -->
+    <link rel="icon" type="image/png" href="icon.png"/>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="all.js"></script>
+  </head>
+  <body>
+
+      <a href="#" id="printbutton" onclick="showPrintPreview(event);">print</a>
+          <div id="title" > Sterile Dogma</div>
+
+          <div  style="z-index: 900;" id="chapterselection" class="select">
+
+            <select  id="menu" onchange="window.open(this.value,'_self');">
+                  <option value="#chapter1"> A wild man ↯ </option>
+                  <option value="#chapter2">The Good Ugliness of Nature ↯</option>
+                  <option value="#chapter3">Irrelevant Transcended Reality ↯</option>
+                  <option value="#chapter4">Alien to the Progressive ↯</option>
+                  <option value="#chapter5">A Poor Devil ↯</option>
+                  <option value="#chapter6">The Schizophrenic Sun ↯</option>
+                  <option value="#chapter7">Image of Black Becomes an Entity ↯</option>
+            </select>
+
+
+          </div>
+
+
+         <div id="printoverlay"></div>
+  <embed id="printpreview" src="Thesis.pdf" type="application/pdf" />
+
+
+
+
+            <div id="abstracttext">
+
+            </div>
+
+          <div id="images">
+
+
+            <div class="tooltip">  <img class="pic" src="f1.jpg"  alt="." > <span class="tooltiptext">Rubens, P. P. [art- ist], “Expulsion from the Garden of Eden” [painting, oil] (1620).</span> </div>
+            <div class="tooltip">  <img class="pic" src="f2.jpg"  alt="." > <span class="tooltiptext">“Positive thinking day”[photography] (n.d.), Retrieved from Google image search.</span> </div>
+            <div class="tooltip">  <img class="pic" src="f3.jpg"  alt="." > <span class="tooltiptext">Face of silence from the Doctor Who universe [image] (n.d.). </span></div>
+            <div class="tooltip">  <img class="pic" src="f4.jpg"  alt="." > <span class="tooltiptext">“Hammer Horror Production: The Reptile” [film] (1966).</span> </div>
+            <div class="tooltip">  <img class="pic" src="f5.jpg"  alt="." > <span class="tooltiptext">Herzog, W. (Film director) “Nosferatu the vampyre” [horror movie] (1979).</span></div>
+            <div class="tooltip">  <img class="pic" src="f6.png"  alt="." > <span class="tooltiptext">Herzog, W. (Film director) “Nosferatu the vampyre” [horror movie] (1979).</span></div>
+            <div class="tooltip">  <img class="pic" src="f7.jpg"  alt="." > <span class="tooltiptext">“Hammer Horror Produc- tion: The curse of Frankenstein” [film] (1957). </span></div>
+            <div class="tooltip">  <img class="pic" src="f8.png"  alt="." > <span class="tooltiptext">Robertson, V.J. (artist), Antigone [reproduc- tion of the painting] 1850). </span> </div>
+            <div class="tooltip">  <img class="pic" src="f9.jpg"  alt="." > <span class="tooltiptext">The plague doctor [image, etching] (n.d.). </span> </div>
+            <div class="tooltip">  <img class="pic" src="f10.png"  alt="." > <span class="tooltiptext">Finch, A (Blogger). MORNING ROUTINE OF A SUCCESSFUL ENTREPRENEUR! [Video] (2018, August 25). Retrieved from https://www. youtube.com/watch?v=SgfX- rYkLMygd</span> </div>
+            <div class="tooltip">  <img class="pic" src="f11.jpg"  alt="." > <span class="tooltiptext">Fritz Eichenberg (illustrator), Dostoyevsky,F.: Crime and punishment [book illustration] (1938).</span> </div>
+            <div class="tooltip">  <img class="pic" src="f12.jpg"  alt="." > <span class="tooltiptext">Welder Wings [artist, illustrator], “Slander (The hell of words)” [collage] (2018).</span> </div>
+            <div class="tooltip">  <img class="pic" src="f13.jpg"  alt="." > <span class="tooltiptext">Welder Wings [artist, illustrator], “Sanctuary ( Noli me tangere)” [collage] (2018).</span> </div>
+            <div class="tooltip">  <img class="pic" src="f14.jpg"  alt="." > <span class="tooltiptext">Helicovera zea [photograph] (N.D.).</span> </div>
+            <div class="tooltip">  <img class="pic" src="f15.jpg"  alt="." > <span class="tooltiptext">East African sea cow [photograph] (N.D.).</span> </div>
+            <div class="tooltip">  <img class="pic" src="f16.png"  alt="." > <span class="tooltiptext">“The Paranoid Ruler I” [digital artwork] (2019). </span> </div>
+            <div class="tooltip">  <img class="pic" src="f17.jpg"  alt="." > <span class="tooltiptext">Thievery Corporation [music band], “Culture of fear” lp album cover [photograph] (2011). </span> </div>
+            <div class="tooltip">  <img class="pic" src="f18.jpg"  alt="." > <span class="tooltiptext">Mogilevtsev V. [artist] “Anatomy of Human Figure: The Guide for Artists” [book illustration] (2017)</span> </div>
+            <div class="tooltip">  <img class="pic" src="f19.png"  alt="." > <span class="tooltiptext">“The Paranoid Ruler II” [digital artwork] (2019.)</span> </div>
+            <div class="tooltip">  <img class="pic" src="f20.jpg"  alt="." > <span class="tooltiptext">Granet, F. M. (artist). The Alchemist [painting] (19th century).</span> </div>
+            <div class="tooltip">  <img class="pic"src="f21.png"  alt="." > <span class="tooltiptext">Emperor’s new clothes [illustration, etching] (n.d.). </span> </div>
+            <div class="tooltip">  <img class="pic" src="f22.jpeg"  alt="." > <span class="tooltiptext">Illustration of the sleep-wake cycle [infographic] (N.D.). </span> </div>
+            <div class="tooltip">  <img class="pic" src="f23.png"  alt="." > <span class="tooltiptext">“The Paranoid Ruler III” [digital artwork] (2019.)</span> </div>
+            <div class="tooltip">  <img class="pic" src="f24.png"  alt="." > <span class="tooltiptext">Welder Wings [artist, illustrator], “Fear” [collage] (2018).</span> </div>
+            <div class="tooltip">  <img class="pic" src="f25.jpg"  alt="." > <span class="tooltiptext">Goya, L.F. de (artist), “Witches’ sabbath and the great he-goat” [mixed meth- od on wall covering] (1820-1823).</span> </div>
+            <div class="tooltip">  <img class="pic" src="f26.jpg"  alt="." > <span class="tooltiptext">Goya, L.F. de (artist), “Atropos or the fates” [mixed method on wall covering] (1820-1823).</span> </div>
+            <div class="tooltip">  <img class="pic" src="f27.jpg"  alt="." > <span class="tooltiptext">Goya, L.F. de (artist), “Saturn” [mixed method on wall covering] (1820- 1823). </span> </div>
+            <div class="tooltip">  <img class="pic" src="f28.jpg"  alt="." > <span class="tooltiptext">Goya, L.F. de (artist), “The drowning dog” [mixed method on wall covering] (1820-1823). </span> </div>
+            <div class="tooltip">  <img class="pic" src="f29.jpg"  alt="." > <span class="tooltiptext">Goya, L.F. de (artist), “Asmodea” [mixed method on wall covering] (1820- 1823).</span> </div>
+            <div class="tooltip">  <img class="pic" src="f30.jpg"  alt="." > <span class="tooltiptext">Correggio (artist), “The Holy Night” [painting] (1522-1530).</span> </div>
+            <div class="tooltip">  <img class="pic" src="f31.jpg"  alt="." > <span class="tooltiptext">Bosch, H. (artist), “The Temptation of Saint Anthony” [Triptych painting] (1501).</span> </div>
+
+            <div class="tooltip">  <img class="pic" src="f34.jpg"  alt="." > <span class="tooltiptext">Caravaggio (artist), Judith Beheading Holofernes [painting] (1598-1599).</span> </div>
+            <div class="tooltip">  <img class="pic" src="f35.jpg"  alt="." > <span class="tooltiptext">Visual human project: Susan potter [digi- tal image] (n.d.).</span> </div>
+            <div class="tooltip">  <img class="pic" src="f36.jpg"  alt="." > <span class="tooltiptext">Image of the cadaver study of the facial mus- cles [photograph] (N.d.).</span> </div>
+            <div class="tooltip">  <img class="pic"src="f37.jpeg"  alt="." > <span class="tooltiptext">Rembrandt [artist], “The Anatomy Lesson of Dr. Nicolaes Tulp” [painting] (1632). </span> </div>
+            <div class="tooltip">  <img class="pic" src="f38.jpg"  alt="."> <span class="tooltiptext">The Anatomage Table at the Stockton University [photograph] (n.d.).</span> </div>
+            <div class="tooltip">  <img class="pic" src="f39.png"  alt="." > <span class="tooltiptext">“Protesting Positivism I” [digital collage] (2019).</span> </div>
+            <div class="tooltip">  <img class="pic" src="f40.png"  alt="." > <span class="tooltiptext">“Protesting Positivism II” [digital collage] (2019).</span> </div>
+            <div class="tooltip">  <img class="pic" src="f41.jpg"  alt="." > <span class="tooltiptext">“Contract Buyers League Protesters in Chicago” [photograph] (1960s).</span> </div>
+            <div class="tooltip">  <img class="pic" src="f42.jpg"  alt="." > <span class="tooltiptext">Hitchcock A. [film director], “Suspicion” [film] (1941).</span> </div>
+            <div class="tooltip">  <img class="pic" src="f43.png"  alt="." > <span class="tooltiptext">“The Paranoid Ruler IV” [digital artwork] (2019).</span> </div>
+            <div class="tooltip">  <img class="pic" src="f44.jpg"  alt="." > <span class="tooltiptext">Valerian D. [artist], “As Above, So Below” [painting, oil on canvas] (2018).</span> </div>
+            <div class="tooltip">  <img class="pic" src="f45.jpg"  alt="." > <span class="tooltiptext">Blake W. [poet, painter], “The Ancient of Days” [etching] (1794) </span> </div>
+            <div class="tooltip">  <img class="pic" src="f46.jpg"  alt="." > <span class="tooltiptext">Schneider S. [artist] “Hypnotism” [Litograph] (1904).</span> </div>
+            <div class="tooltip">  <img class="pic"src="f47.jpg"  alt="." > <span class="tooltiptext">Artist and title unknown [painting] (n.d.).</span> </div>
+            <div class="tooltip">  <img class="pic" src="f48.png"  alt="." > <span class="tooltiptext">“The Schizophrenic Sun” [poster] (2018). </span> </div>
+            <div class="tooltip">  <img class="pic" src="f49.jpg"  alt="." > <span class="tooltiptext">Uldalen H. A. [painter], “Untitled” [painting] (2017).</span> </div>
+            <div class="tooltip">  <img class="pic" src="f50.jpeg"  alt="." > <span class="tooltiptext">Photo of David Vetter, born in Septem- ber 1971 with a deadly genetic disease and placed in a sterie bubble for survival. [photograph] (1970s). </span> </div>
+            <div class="tooltip">  <img class="pic" src="f51.jpg"  alt="." > <span class="tooltiptext">Hayes B. [film director], “Bubble Boy” [film] (2001).</span> </div>
+            <div class="tooltip">  <img class="pic" src="f52.jpg"  alt="." > <span class="tooltiptext">Scientific sterile glove box [Photograph] (n.d.). </span> </div>
+            <div class="tooltip">  <img class="pic" src="f53.jpeg"  alt="." > <span class="tooltiptext">Abstract astrologi- cal image [photograph] (n.d.).</span> </div>
+            <div class="tooltip">  <img class="pic" src="f54.png"  alt="." > <span class="tooltiptext">Abstract astrological image [photograph] (n.d.).</span> </div>
+
+          </div>
+
+          <div id="footnotes">
+            <span class="chaptertitle">Literature/Footnotes:</span><br><br>
+
+<p id="9">Agee, H. R.; Orona, E. (1988). "Studies of the neural basis of evasive flight behaviour in response to acoustic stimulation in Heliothis zea (Lepidoptera: Noctuidae): organisation of the tympanic nerves". </p>
+<br>
+<p>Alighieri, D. (2018). Inferno. S.l.: Arcturus Publishing.</p>
+<br>
+<p id="14">Bannister, J. And Fyfe, N. (2001) ‘Introduction: Fear and the City’, Urban Studies, vol. 38</p>
+<br>
+<p id="18">Britannica, T. E. (2018, May 03). Nyx. Retrieved from <a class="flink" href="https://www.britannica.com/topic/Nyx">https://www.britannica.com/topic/Nyx</a></p>
+<br>
+<p id="6">Canetti, E. (2000). Crowds and power. London: Orion Publishing.</p>
+<br>
+<p>Chaniotis, A., Derron, P., Ducrey, P., Wilson, A., Schlesier, R., Pirenne-Delforge, V., . . . Carla-Uhink, F. (2018). La nuit: Imaginaire et réalités nocturnes dans le monde gréco-romain: Neuf exposés suivis de discussions (Vol. LXIV). Vandœuvres: Fondation Hardt pour létude de lantiquité classique.</p>
+<br>
+<p>Eco, U. (2011). On Ugliness. London: MacLehose Press.</p>
+<br>
+<p>Elkins, J., and Morgan, D. (2009). Re-enchantment. New York, NY: Routledge</p>
+<br>
+<p>Ehrenreich, B., & RSA, T. (2010, March 10). Smile or Die: Dark Side of Positivism. Retrieved from <a class="flink" href="https://www.youtube.com/watch?v=PJGMFu74a70">https://www.youtube.com/watch?v=PJGMFu74a70</a></p>
+<br>
+<p id="4">Fitzpatrick, T. (2018). EurekAlert Genetically Speaking, Race Doesn't Exist In Humans, Global Source for Science News, Retrieved from <a class="flink" href="https://goo.gl/GTMUTq">https://goo.gl/GTMUTq</a></p>
+<br>
+<p id="39">Freud, S., & Haughton, H. (2011). The uncanny. Brantford, Ont.: W. Ross MacDonald School Resource Services Library.</p>
+<br>
+<p id="12">Furedi, F. (2007, April 4). The only thing we have to fear is the ‘culture of fear’ itself [PDF]. Retrieved from <a class="flink" href="http://frankfuredi.com">http://frankfuredi.com.</a></p>
+<br>
+<p id="3">Gamboni, D. (2004). Potential images: Ambiguity and indeterminacy in modern art. London: Reaktion.  </p>
+<br>
+<p id="13">Garland, D. (2001) The Culture of Control; Crime and Social Order in Contemporary Society, (Oxford University Press: Oxford).</p>
+<br>
+<p>Giraud, A., Cohen, B. D., Hartleben, O. E., Carr, D., Ferrari, J., & Schoenberg, A. (2007). Pierrot lunaire: Poems. Westminster Station, VT: Bridge Press.</p>
+<br>
+<p id="5">Goethe, J. W., Von. (1999). Faust (Wordsworth Classics of World Literature). Ware, Hertfordshire: Wordsworth editions.</p>
+<br>
+<p>Hlavajova, M., Lütticken, S., & Winder, J. (2009). The return of religion and other myths: A critical reader in contemporary art. Utrecht: BAK.</p>
+<br>
+<p id="37">Jarrod. (2017, July 24). Smile or Die: The Dark Side of Positive Thinking. Retrieved from <a class="flink" href="https://jarrodsblog.com/2017/07/13/smile-die-dark-side-positive-thinking/">https://jarrodsblog.com/2017/07/13/smile-die-dark-side-positive-thinking/</a></p>
+<br>
+<p id="41">Land, N., Mackay, R., & Brassier, R. (2018). Fanged Noumena: Collected writings 1987-2007. Falmouth: Urbanomic.</p>
+<br>
+<p id="25">“Law of effect”, Revolvy.com, <a class="flink" href="https://goo.gl/djQCuf">https://goo.gl/djQCuf</a></p>
+<br>
+<p id="10">Lovecraft, H.P. Supernatural Horror in Literature (n.d.). Retrieved from <a class="flink" href="https://goo.gl/Gjvyqe">https://goo.gl/Gjvyqe</a></p>
+<br>
+<p id="31">Mamardashvili, M. (2014). Lectures on antique phi- losophy, 1980. Moscow: Azbuka-Attikus.</p>
+<br>
+<p id="34">Martin, A. (2010, August 10). The Phenomenology of Ugly. Retrieved from <a class="flink" href="https://opinionator.blogs.nytimes.com/2010/08/10/the-phenomenology-of-ugly/">https://opinionator.blogs.nytimes.com/2010/08/10/the-phenomenology-of-ugly/</a></p>
+<br>
+<p id="11">Mary C. (2011). Lamia Ph.D. The Complexity of Fear, Psychology Today Retrieved from <a class="flink" href="https://goo.gl/7vmn7Z">https://goo.gl/7vmn7Z</a></p>
+<br>
+<p id="35">Night. (2018, December 24). Retrieved from <a class="flink" href="https://en.wikipedia.org/wiki/Night">https://en.wikipedia.org/wiki/Night</a></p>
+<br>
+<p>Nietzsche, F. W., Kaufmann, W. A., & Nietzsche, F. W. (1969). On the genealogy of morals. New York: Vintage Books.</p>
+<br>
+<p>Palgrave, F. T., & Press, J. (1994). The Golden treasury of the best songs & lyrical poems in the English language. Oxford: Oxford University Press.</p>
+<br>
+<p>Plus, S. (2015, September 22). How Fear Is Wired In Our Brains. Retrieved from <a class="flink" href="https://www.youtube.com/watch?v=vl_B6n- z3UOQ">https://www.youtube.com/watch?v=vl_B6n- z3UOQ</a></p>
+<br>
+<p id="1">Prose, F., & Moser, B. (2014, November 25). What Makes the Russian Literature of the 19th Century So Distinctive? Retrieved from <a class="flink" href="https://www.nytimes.com/2014/11/30/books/review/what-makes-the-russian-literature-of-the-19th-century-so-distinctive.html">https://www.nytimes.com/2014/11/30/books/review/what-makes-the-russian-literature-of-the-19th-century-so-distinctive.html</a></p>
+<br>
+<p id="4">Rattigan, D. L. (n.d.). The Horror of It All: The Dynamics of Class and Power in the Hammer Gothics. Retrieved from <a class="flink" href="https://davidlrattigan.com/hhclass.html">https://davidlrattigan.com/hhclass.html</a></p>
+<br>
+<p id="21">Roelstraete, D. (Spring 2009) Great Transformations: on the Spiritual in Art, Again, Afterall, no 20</p>
+<br>
+<p>Ringbom, S. (1966). Art in The Epoch of the Great Spiritual: Occult Elements in the Early Theory of Abstract Painting. Journal of the Warburg and Courtauld Institutes, 29, 386. doi:10.2307/750725  </p>
+<br>
+<p id="2">Rovelli, C. (2018). The order of time. London: Penguin Books. </p>
+<br>
+<p id="38">Sadler, G. B. (2013, January 12). Friedrich Nietzsche | Genealogy of Morals (part 1) | Existentialist Philosophy & Literature. Retrieved from <a class="flink" href="https://www.youtube.com/watch?v=MlojPJr4-Vo">Youtube</a></p>
+<br>
+<p id="24">Skinner, B. F. (n.d.). A Functional Analysis of Verbal Behavior. Verbal Behavior.,1-12. doi:10.1037/11256-001</p>
+<br>
+<p id="42">Stewart, I. (2018, January 19). Number symbolism. Retrieved from <a class="flink" href="https://www.britannica.com/topic/ number-symbolism">https://www.britannica.com/topic/ number-symbolism</a></p>
+<br>
+<p>Velden, D., Van der. (n.d.). Crypto Logo Jihad, Black Metal and the Aesthetics of Evil  [PDF].</p>
+<br>
+<p>Warner, M. (2006). Phantasmagoria: Spirit visions, metaphors, and media into the twenty-first century. Oxford: Oxford University Press.  </p>
+<br>
+<p id="29">Woolf, V. (2005). Street haunting. London: Penguin.</p>
+<br>
+<p id="20">Zafirovski, M. (2010). The Enlightenment and Politics. The Enlightenment and Its Effects on Modern Society,169-223. doi:10.1007/978-1-4419-7387-0_5</p>
+<br>
+<p>Zamyatin, Y. I., Glenny, M., & Guerney, B. G. (1987). We. London: Penguin Books.</p>
+<br>
+<p id="26">ŽiŽek, S. (2012). Think Big. Why Be Happy When You Could Be Interesting? Retrieved from <a class="flink" href="https://www.youtube. com/watch?v=U88jj6PSD7w">https://www.youtube. com/watch?v=U88jj6PSD7w</a></p>
+<br>
+
+            </div>
+
+
+          <div id="main"  class="maintext">
+
+
+            <a name="chapter1">
+
+            <span class="chaptertitle">A WILD MAN</span>
+            <br><br>
+            Today we are living in the world where fear and doubt are being condemned to the ever-lasting flight down the void. Regarded as concepts of weakness and futility and opposed by the constantly enhancing and inflated concept of positive-thinking and “gratefulness”, fear and doubt became even more shameful to experience than they used to be throughout the history. This becomes a reason for us to start denouncing such crucial parts of our lives as non-important ones or as those that are reinforcing fears and insecurities in favour of artificial cover made of all that successful compensating and striving. I see such escapism as an eminently important issue that can have poor fallout for our civilisation’s present and thus - future. This is why I am interested in the topic of nocturnal culture and how dark aesthetic and in general acceptance and exposure to fear and dark colors, especially the black image,  can influence our cognition and evolution. Most importantly, it is not just fear playing a role in this game, but everything that builds up on the basis of it as well, such as Nocturnus, Silence and ambiguity. All of the above, both as separate entities and as cultures derived from them are far from being discussed as something more than experiments and challenges, whilst in reality they are some of the best tools we can use for building up our consciousness and fertilising soil for our advancement. Things as “subcultural” or “unreal” as Bram Stoker’s Dracula and/or Nocturnal Animals by Tom Ford can already pave a way for constructing an understanding of our race. I strongly believe that such strategy, of facing Nocturnus as it is and relishing the beauty of fear, can evoke higher modes of both self and general analysis and bring out the natural curiosity in humans that now is unfortunately put into lethargic sleep.
+          <br><br>
+          I am used to such mode of thought since childhood since being exposed to a large library at home. There was virtually no restriction on which work would end up in my hands and having early access to late 19th century Russian literature, where Dostoyevsky <a class="footnote-ref" data-link="1">“depicted humans as beings whose lunacy and lust and terror were held in check by only the gauziest of veils” <sup class="sups">1</sup></a> along with ancient greek history and myths embellished with heroes and their tragic stories, books of Edgar Allan Poe and so on. I discovered that in that dark room filled with not-fully painted, mostly tragic and/or questionable stories that were so silent, ambiguous and bigger than me, my consciousness was at most of it’s work capacities and whilst leaving that room it could be physically felt that the brain was burning. Burning because it was running after something it couldn’t understand at first, surrounded by lexemes out of its’ knowledge. Knowledge that was small and dark.
+          <br><br>
+          It felt magical, and only later I found out that <a class="footnote-ref" data-link="2"> “only where there is heat is there distinction between past and future” <sup class="sups">2</sup></a> and lessons learnt. This is why I seek to re-invigorate a sense of wonder, uncertainty and mystery in life by implementing and emphasising the Nocturnus and fear of unknown. Thus, with such aim, this paper will be looking into history of how and if various parts of Nocturnal Culture were influencing human evolution, if they had an effect on individuals or masses, both positive and negative, in order to find proving arguments that can be served to our society which is drowning in “positive living bullet journals” and “books of everyday gratefulness” instead of simply turning of the lights and thinking.
+          <br><br>
+          It should probably also be admitted that to some readers of this paper the attitude which shines through the first sentences might already feel alerting and confusing but I will allow myself such privilege of provoking disagreement amongst them as disagreement is the most fertile soil for analysis. And it should be, since the problematic of today, that is concealed exactly in the loss of genuineness and almost dogmatic creation of artificial bubbles of joy, is hugely important and dangerous for our potential as human beings.
+          <br><br>
+          Most of humanity tends to forget one simple verity - fear is one of our fundamental emotions not for the reason of making us feel like little cubs lost in the dangerous jungles with no hope and mom around. Fear is built into us for the reason of evolution, as it is meant to be one of the main triggers for human development and survival. We fear the dark? We light fire. We think we light fire to get warmer? That is true as well, since we can not check what was happening in the minds of our predecessors. But behind that - still hides the fundamental and subconscious fear of death.  And it can be said that this is brilliant and beautiful how opposition of contradictories paves the road for ones’ benefit. Denouncing it now along with anything that evokes or reminds of it is a path to unfortunate regress of our minds. And the most painful fact in this issue is that whilst declining the concept of fear we are doing it out of fear of fear.   <sup class="sups">3</sup>
+            <div class="note"> <sup>3</sup> This is also partly a reason for the increased tendency of diminishing the role of introverted people and building up a culture of collective open spaces and organisations. In order to survive the fear of fear we force each other into packs of people, thus seriously damaging the value of the individuals seeking silence and alienation. Ironically enough, this way we also strip ourselves of high amounts of potential hidden in such mode of thinking and living. By overlooking introverts and their preferred ways of working, businesses are failing to utilise the full potential of their work- force. As stated by Briggs & Myers, founders of the universally used personality test, introverts “focus on their inner world of ideas and experiences. They direct their energy and attention inward and receive energy from reflecting on their thoughts, memories and feelings”. They simply need less stimulation from their physical surroundings while in contrast, extroverts are energised by the “outer world”. </div>
+            <br><br><br><br><br><br><br><br><br><br><br>
+          In the world where human race is being very close to Yevgeny Zamyatin’s “We”, majority of our mainstream public is becoming more than simply atrophied. As if produced in the same capsule, a large part of our population has an inherited loss of curiosity or better to say - adventure. This can also be seen in a way of our “acceptance” of nocturnal culture, which does not happen and become popular unless it is diminished to the PG-13 rating and wrapped in a creative yet standard packaging of predictability. Matter-of-factly, talking about the horror movie scene, a great case of Hammer Horror Films can be marked and sanctioned with a positive role it played in Britains’ decaying class society of mid-20th century. Low-budget, quick and dirty, they portrayed the upper classes as the bearers of contagion into the public, as seen in the two 1965 Hammer movies of John Gilling - Plague of Zombies and The Reptile, where the depiction of the ruling class could be seen with an oppressive and colonial under-tone, voicing that it is “essentially British imperialism that invites destruction”. <a class="footnote-ref" data-link="4"> It was the Squire named Hamilton who brought voodoo rituals from Haiti and used them for the creation of zombies in The Plague and conversely Dr. Franklyn who hampered with a snake-worshiping cult from India.  <sup class="sups">4</sup></a>
+          <br><br>
+          This shows the seemingly obvious - it’s hard to point at what needs to be improved without being gruesome. Yet, everyone is so unique and safe nowadays, that everybody is the same and threatened without realising it and this is critical in terms of our further progress. It has nowhere to go and this is why we need this comeback to the “whole” to the “one”, to the Night. <a class="footnote-ref" data-link="5">Just as seen in example of Dr. Faust, such path (path of our mainstream culture, not the one of Faust) is too narrow and leads us to the end of knowledge way too fast, and in a way just as Faust, we long for nature, happiness and higher universe expecting it to be bright. <sup>5</sup></a> We summon illusions that are soon to leave us unsatisfied. Whilst what needs to happen - is to look to your side, away from the empty path leading into nowhere, and inquire into the small lights far in the darkness of woods around you.
+          Some may argue back that we are not shying away from unknown as this is what drives our highly progressive sciences. But as much as we lost our fear of knowledge in the bright sterile scientific labs, we have to accept that testing new chemical solutions or trying to clone Dolly in the darkness of the less lit space that is not equipped with plans B, C, D etc..  would all of the sudden become much eerier. As much as we seek to convince others and ourselves that fear and negativity do not exist anymore and are just illusions of past and naive - there is still nothing that man fears more than the touch of the unknown. He wants to see what is reaching towards him and to be able to recognise, or at least clarify it. <a class="footnote-ref" data-link="6"> “Even clothes give insufficient security: it is easy to tear them and pierce through to the naked, smooth, defenceless flesh of the victim.”  <sup>6</sup></a>
+          <br><br>
+          Fear and darkness exist. Let’s cross it here. We live in a society where everyone can be what they want, the kindest, brightest, most positive bravest self, yet fear is still there. In the way we move on the streets, restaurants, busses and trains, in the way we stand next to each other. Even then, when we are able to observe and inspect strangers closely - we still avoid actual physical contact with any of them as much as we can. And the reason why our attempts at eliminating fear and suspense from our society are perilous is hidden already in this example.  “The only way to avoid fear of touch for man is the crowd.<a class="footnote-ref" data-link="6"> “The crowd he needs is the dense crowd, in which body is pressed to body; a crowd, too, whose psychical constitution is also dense, or compact, so that he no longer notices who it is that presses against him.”  <sup>7</sup> </a>And such scenario (from a certain perspective) portraits the stripping down of identity that eminently reminds of the highly dystopian future that this way will be awaiting us in the end. Think of it this way, facing night and staying alone with yourself in the darkness when nothing else entertains you enough to distract from yourself is as uncomfortable as standing in an elevator with a lonely stranger.  We can even say that a not so recent movie “Devil” (USA, 2005) (a mystic thriller about 5 strangers getting stuck in an elevator) is not so much about the Devil himself deciding to visit these 5 random people, but them facing their own Egos, portrayed with an image of Devil and triggered by a prolonged seclusion in a narrow singular space.
+
+          <br><br>
+
+        <div class="endquote">  “I am aware of myself. And, of course, the only things that are aware of themselves and conscious of their individuality are irritated eyes, cut fingers, sore teeth. A healthy eye, finger, tooth might as well not even be there. Isn't it clear that individual consciousness is just sickness?” 
+        <br> <span class="author"> (Yevgeny Zamyatin - We, 1924)</span> </div>
+<br><br><br><br><br><br><br><br>
+
+    </a>
+
+
+            <a name="chapter2">
+              <span class="chaptertitle">THE GOOD UGLINESS OF NATURE</span>
+              <br><br>
+              In order to begin discussing relevance and materiality of Nocturnus we should first pose it in front of us as philosopher’s stone; count its angles, faces and reflections. Being translated from latin as “of the night” it gives us a big spectre of elements to bring to discussion at this table, moreover we have already started with one of them in the previous chapter. Fear is the basis of it all and having touched the fundament of the thesis we can now slowly come back to its main floorpan - night. Thus, further in this paper Nocturnus and fear will be inseparable due to their nature. Now it’s time to talk about the wild man, the wild times and the wild material.
+              <br><br>
+              As a prologue to this and following chapter we must say that avoiding the lure of pure psychological ideation and analysis of fear, this thesis corroborates the criticism towards specific trends existing in our era that would rather focus on the individual dimension of fear, thus missing its social aspects. Fear can not and must not ever be reduced to its emotional actuality, on the contrary, it must rather be regarded by anthropologists as the prime mover of rational cognition in treacherous or fatal conditions.
+              <br><br>
+              Night and love for it (also known as nyctophilia) are a complex matter, especially in our daylight-based civilisation. If we start with Nyctophilia itself, based on the latin origins of “Nycto” and “Philia” we can safely state that it is literally love for the darkness and night. But moreover (withal from a personal perspective of a nyctophiliac myself) it is also a feeling of one’s belonging to the night. As a side-effect, people with nyctophilia tend to have attraction to darkness, cold rainy days as well as to silence. And on top of that it also is utterly crucial to articulate the fact that people who love darkness, on the contrary to the common belief and stereotypes, do not necessarily become Gothic or only watch horror movies with a heavy metal music as their soundtrack for life. I believe that what defines the love for darkness is precisely the ability to discover, distinguish and treasure it even within the light of colourful lamps during the day, thus portraying a somewhat inevitability of its’ presence in a nyctophiliacs’ life that may have both positive or negative effects on such people. A person, defining himself this way is becoming a microscopic, enhanced case study for how Nocturnus and Fear influence our lives.
+              <br><br>
+              However, with all that said, almost no-one can argue against the fact that at the moment we simply (biologically) can not live exclusively during the night, as much as some of us may wish. On top of that, majority will argue that we couldn’t have survived as biological species if we would only function at night in the first steps of humanity. As one of the simplest arguments to that can be the fact that mornings, with the exposure to light, let our SCN send signals to hike the temperature of our body and produce hormones such as cortisol. Additionally, SCN responds to sunlight with postponing the release of other hormones such as melatonin, which stays up all night, promoting sleep, and is produced as our eyes signal the SCN that we are surrounded by darkness. <sup>8</sup>
+
+              <div class="note"> <sup>8</sup>Although if we look at circadian rhythms we can argue that even though they are endogenous (“built-in”, self-sustained), they are adjusted (entrained) to the local environment by external cues called zeitgebers (from German, “time giver”), which include light, temperature and redox cycles. [Bass J (November 2012). “Circadian topology of metabolism”. Nature. 491 (7424): 348–56. ] Which lets us assume that with the right Zeitgebers we could have had developed a nocturnal lifestyle.</div>
+              <br><br><br><br><br><br><br>
+              As simple and argumentative as it is we still can speculate that nocturnal life-style could still have been possible for us if certain settings of human development have been different. Our planet is already inhabited by perfect examples of this being possible with a whole list of nocturnal creatures that either stayed in the deep see since Palaeozoic Era or evolved this way over centuries.<a class="footnote-ref" data-link="9"> These animals generally have highly developed senses of hearing, smell, and specially adapted eyesight which help creatures like the Helicoverpa zea moths avoid predators.  <sup class="sups">9</sup> </a> However, what’s most important is if in our well-established world there is still an opportunity for change? And yes, there is. We live in an era where massive numbers of species - from feral dogs and deers, to East African sea cows - have all made a conversion from flexible or diurnal lifestyles to nocturnal ones. Where mammals have a possibility to function nocturnally, and where they are continuously ringed by humanity, they fairly eagerly begin sleeping/going underground for the period of the day. This suggests that we can argue that no statements are solid as human species could have also adapted and evolved differently throughout history if the circumstances would be different around us. Putting it radically, it might have been, that if the local setting of the millions of years back would turn us into nocturnal creatures - we wouldn’t be facing problematics that I’m trying to approach in this thesis.
+              <br><br>
+              However, facing reality, we have to thank evolution for tying us to the daylight as it gave us soil, engine and drive for development. Part of which is fear. <a class="footnote-ref" data-link="10"> “The oldest and strongest emotion of mankind is fear, and the oldest and strongest kind of fear is fear of the unknown”  <sup class="sups">10</sup> </a> - so from an evolutionary viewpoint, the fear response is an absolutely necessary part of our mental system. It is the way we recognise and avoid threats. <a class="footnote-ref" data-link="11">“Since fear helps protect you it is therefore adaptive, functional, and necessary.” <sup class="sups">11</sup> </a> Linking deeply to the experience of uncertainty—it makes us anticipate that we might feel pain/hunger or anything threatening to us soon, and it orients us to escape and increase our distance from the feared stimulus. This is also why it is highly amusing to watch the ideology of positive living strive in stating that fear is just a construction that does not exist, as what happens in reality - they try to increase distance from the very same “feared stimulus”.
+              <br><br>
+              Since that response is tied in with natural selection, certain cues—such as snake or cat-eye patterns, spider-like objects, and Nocturnus (where the snakes, panthers, and spiders are found)—more easily invoke that emotion. These are the results of generation upon generation of early humans reacting to and subsequently getting ready for dangers such as these. That's why many ancient threats— weather threats, uncontrolled fire, spiders, snakes, predators, and night—are having higher chances to instigate a negative response, even in small children, rather than contemporary threats like cars, nuclear or chemical weapons, or mortars do. Here is the moment where the side opposing me can have its fare share of argumentativeness. Although, the question on that bank of barricades becomes - is then our survival instinct failing us? One may argue - unfortunately, what did its’ job for us as cave people doesn’t as the matter of course function the same in the 21st century due to the enlarged intricacy of life that has evolved, humankind became more civilised and as technological advancements have changed our individual, social, and work lives thus shifting the notion of survival dramatically nowadays. I’ve seen some people believe that  our existence is no longer about staying alive by fighting or overcoming challenges such as critical threats, we no longer have to fear to have a roof over our heads as a result of survival instinct and the same goes for the clothes on our back and food at the table. Their argument lies in these essentials not being changed over years, but becoming less urgent in comparison to the complex contemporary fears of today. The fight-or-flight reaction to threats, they say, is far too simplistic to effectively overcome many of those we are confronted with today. Unlike threats of the past, today’s are usually neither immediate, foreseeable, or understandable, much less manageable. In fact, not only is this hard-wired response of fear often not effective, but it can be counterproductive to our survival. However, instead of confronting these statements by diminishing the role of the “modern unforeseeable threats” we have to say that the problematic of todays behaviour towards Nocturnus and fear is way to radical and segregative. It is simply unreasonable to fight against the instinctive, anthropological fears and saying “they are not relevant anymore compared to all the psychological struggles of today” because it is the same algorithm our brain operated millions of years ago for us to escape heavy rain and predators and today, for us not get under the car on a highway. We still have to survive the weather conditions, we still fear being attacked by someones’ dogs, we are still scared of the night, be it a bat attacking you for the sake of fun or a criminal trying to still your TV. The cruciality of accepting the fears and Nocturnus lies in the fact that instead of stepping into the same trap now, we should rather learn from the experiences of people before us. Not on someones short-told story, but on someone’s book that is the history of humankind.
+              <br><br>
+              Historically the threat was defined as the object of fear, so obviously the problem was in these very objects, such as hunger, death and illness, or today it can be loss of job, being homeless or a fear of tsunami. However, the utter hitch of today is, as described by Frank Furedi in his article on “The only thing we have to fear is the ‘culture of fear’ itself”, in the fact that today many see the act of fearing as a threat in itself, which brought us to this positivistic ice cube that now melts like arctic ice caps, threatening our existence. Consider the debate about the fear of crime. <a class="footnote-ref" data-link="12">Nowadays fear of crime is seen as a serious problem that is to extent distinct from real acts of crime. <sup>12</sup></a> A Garland observes: <a class="footnote-ref" data-link="13">“Fear of crime has come to be regarded as a problem in and of itself, quite distinct from actual crime and victimisation, and distinctive policies have been developed that aim to reduce fear levels, rather than reduce crime”. <sup>13</sup></a> It looks like fear of crime now is <a class="footnote-ref" data-link="14"> “recognised as a more widespread problem than the crime itself”.  <sup>14</sup></a>
+              <br><br>
+              According to Elias Canetti in his book “Crowds and Power”, the paranoiac type of ruler may be defined as one who uses every means to keep danger away from his person. Instead of challenging and confronting it and abiding the issue of a fight which might go against him, he seeks circumspection and cunning to block its approach to him. He creates empty space all around him which he can survey, and he observes and assesses every sign of approaching danger. And this is exactly what our society might be facing in a not so distant future - becoming paranoid and surrounded by emptiness with no meaning. We became so scared of being scared, that we ring ourselves with this enormous space filled with radical positivism that is empty in itself and blindfolding. And we do it to such extent that our average development is freezing itself in time, people start saying that there is nothing left to achieve but no-one yet have noticed that indeed, the King is naked.
+              <br><br>
+            </a>
+
+
+            <a name="chapter3">
+                <span class="chaptertitle">IRRELEVANT TRANSCEDED REALITY</span>
+<br><br>
+              <div class="startquote">
+              'Brothers,' I said, 'o you, who having crossed 
+              a hundred thousand dangers, reach the west, 
+              to this brief waking-time that still is left
+              unto your senses, you must not deny 
+              experience of that which lies beyond 
+              the sun, and of the world that is unpeopled.<br>
+            <span class="author">(Inferno, Canto XXVI, lines 112–120, Mandelbaum translation.)</span>
+            </div> <br><br><br><br><br><br><br><br>
+            Now, as the title of this thesis suggests, we are not here to discuss only fear and night, but also to see how all of the things they are associated with function and coexist. Partly we need this to show the diverse and far-spread reach of the topic within the texture of our existence, thus solidifying the arguments to come.
+            <br><br>
+            Night and Nocturnus have always been ever-present in the culture of humankind. Historically it has taken various positions in both music, visual arts and literature.<sup>15</sup> Being embedded in our nature quite often it has been derived from emotion and high alertness, rather than reason of pure mind. It is indeed a constant π value of our reality and thus can show its’ head from most unexpected corners.The fundament for its’ strong connotations with everything gruesome, unknown and odd is no longer a secret for us. And yet, each example of our interpretation of Night in Art is a unique object, plus in this uniqueness hides the beauty of darkness and it’s openness for interpretation. Unlike sterile spaces with clear thoughts and messages, uncertainty and ambiguity of absence of light gives our cognition space for radical interpretation and metamorphosing along with evolvement.
+            <div class="note"> <sup>15</sup> See the whole music composition style - Nocturne (from the French which also meant nocturnal, from Latin nocturnus) is also inspired by,<br>or evocative of, the night.<br><br></div>
+            <br><br>
+
+            <div class="startquote">Giant black butterflies
+            Have blotted out the sunshine.
+            A closed book of magic spells,
+            The horizon sleeps-silent.
+            Vapors from lost abysses
+            Breathe out an odor, murdering memory.
+            Giant black butterflies
+            Have blotted out the sunshine.
+            And from Heaven earthward
+            Gliding down on leaden wings
+            The invisible monsters
+            Descend upon our human hearts...
+            Giant black butterflies.<br>
+            <span class="author">(Albert Giraud, “Pierrot lunaire: rondel bergamasques” (1884),<br>in Otto Erich Hartleben’s translation)</span>
+            </div>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            There is an interesting example of such interpretation - the German translation of Albert Giraud’s “Pierrot lunaire: rondel bergamasques” (1884), which also seems to be better known in its’ German rather than French rendering. In 1892 Otto Erich Hartleben did a translation or the text that later became largely popular due to the work of Arnold Schoenberg composed in 1912. For his “Dreimal sieben Gedichte aus Albert Girauds ‘Pierrot Lunaire’”, Schoenberg chose 21 out of original 50 poems of Giraud and constructed a narrative of three parts of seven. Interestingly, the poem above “Nacht”, initiates a second part in which crime and violence dominate the general narrative. But what’s even more interesting for us is the fact that although the original title of this piece was the “Papillons noirs”, <sup>16</sup> Hartleben chose to call it night without having any seeming reference to it in the text nor in French or German. As noted by Ioannis Mylonopoulos in his work “Brutal are the children of the night!: Nocturnal violence in greek art”,  it is “the strong images captured in a few words that create an almost bloodcurdling atmosphere of the dangerous black night and justify the altered German title”. <sup>17</sup>  This exemplifies the beauty that can be found in darkness and at the same time illustrates the connection between Nocturnus and Strength.
+            <div class="note"> <sup>16</sup> French for “black butterflies”</div>
+            <div class="note"> <sup>17</sup> Chaniotis, A., Derron, P., Ducrey, P., Wilson, A., Schlesier, R., Pirenne-Delforge, V., . . . Carla-Uhink, F. (2018). La nuit: Imaginaire et réalités nocturnes dans le monde gréco-romain: Neuf exposés suivis de discussions(Vol. LXIV). Vandœuvres: Fondation Hardt pour létude de lantiquité classique. </div>
+            <br><br><br><br><br><br><br>
+            Other than that we can redirect our view towards Francisco Goya’s “Pinturas Negras” - one of the most powerful groups of paintings he wrote. Consisting of 14 paintings, originally done on the walls of his house outside Madrid by the end of his life, this series portray intense, haunting topics, and are illustrating the mode of thought that had inhabited Goya’s consciousness at the time, including both the fear of insanity and his austere outlook on humanity. What is so brilliant about this collection is the fact that the word ‘black’ is not necessarily reflecting the color of the paintings but rather goes one step further and represents the emotions that they embody - the disillusionment of Goya with the trajectory of both political and social progress of Spain in early 19th century. They are a perfect case study on how our cognition functions and how intertwined darkness is with it, if not defines it. One can not sense and analyse the texture of our reality through the sterile boxes. Our brains can not develop deductive skills if all the evidence is already put separately in a well-lit white box for you just to look - we should not be simply observers, but searchers. Just as in the other work of Francesco Goya, the gravure “The Sleep of Reason Produces Monsters”, we first assume the obvious - when reason is at sleep we are surrounded by folly and ignorance (represented in owls and bats), but at the same time we can also interpret it as wisdom, death and rebirth (also symbols of owls and bats) coming to us in the most vulnerable position one can be in - sleep. Just as tarot cards can be read in two opposite meanings - the same obscurity belongs to nocturnus and our relation to it.
+            <br><br>
+            And even if we move out of visual arts and frankly look through history of spirituality (which is one of the core aspects of Nocturnus and it’s importance not for no reason) and personifications of the Night itself - one can observe a truly interesting pattern.  For instance - Nut, originally a goddess of the night and later on of all the sky and heavens in Ancient Egyptian religion. She would swallow the sun in the evening and give birth to it once more in the morning, thus also giving the Night attributes of rebirth.  And on the other hand, we can look at  Nyx - greek female personification of the Night, a great cosmological figure of such powers that even Zeus feared her, according to Homer’s Illiad, Book XIV; who was the mother of multiple primordial powers, such as Death, Sleep, Nemesis, <a class="footnote-ref" data-link="18">Old Age and most importantly Fates - the impersonation of our whole human existence. <sup>18</sup></a>
+            <br><br>
+            It is sad to see how this reality transcended through Nocturnus along with its’ multiple representations in spiritual, cultural and more or less applied portraitures has become considered as irrelevant nowadays. In modernity, or, how we like to call our times, post-modernity, the only way for all of these to come back to us - is through the emancipatory role of modern and contemporary (to our generation) art or very particular writings that never reach broad public. <sup>19</sup> Which is a positive direction, yet the path is so narrow and subtle that it still stays somber to see how aesthetics and concepts of darkness stay on the surface of mainstream populism and are embraced in common culture only through the safe lens of cartoonification, happy endings and epic adventures. One shall always bethink that Nocturnus is a representative of our thought process and by escaping the face of darkness we are escaping our own thought.
+            <div class="note"> <sup>19</sup> As an example we can consider a contemporary British writter and philosopher Nick Land who wove together ideas from the occult, cybernetics, science fiction, and poststructuralist philosophy or Mary Midgley and her book on Wickedness. </div>
+            <br><br><br><br><br><br>
+
+            </a>
+
+            <a name="chapter4">
+
+              <span class="chaptertitle"> ALIEN TO PROGRESSIVE</span>
+              <br><br>
+                <div class="startquote"> HAIL, thou most sacred venerable thing!
+              <br>What Muse is worthy thee to sing?
+              <br>Thee, from whose pregnant universal womb
+              <br>All things, even Light, thy rival, first did come.
+              <br>What dares he not attempt that sings of thee,
+              <br>Thou first and greatest mystery?
+              <br>Who can the secrets of thy essence tell?
+              <br>Thou, like the light of God, art inaccessible.<br>
+              <span class="author">(John Norris - Hymn to Darkness, 1657-1711)
+            </div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+              We can safely state that Nocturnus and visual culture that’s based on it will always have itself represented as the occult, otherworldly and treacherous, however nowadays one can also observe the influence the post-dark age, Post-Enlightment era had on our relationship with darkness. I believe that if humanity would be simply scared of everything unknown we would not be facing such an issue these days as the radical mandatory positivism. It is the influence of the Post-Enlightment rhetoric that created an illusion of confidence in us, big enough to start denouncing the existence and relevance of both fear and everything of the night (and by this I do not mean that we are denouncing the night as the time period of the day). The Age of Reason, also known as the “Century of Philosophy” laid the first bricks for us to reimagine Nocturnus as less magical but more  as a social element of life.
+              <br><br>
+              <a class="footnote-ref" data-link="20">The Enlightenment consisted of a variety of ideas centred on reason as the dominant source of authority, legitimacy and advanced principles like liberty, progress,  tolerance,  fraternity, constitutional government and separation of church and state. <sup>20</sup></a> With that in mind, everything mysterious and nocturnal suddenly gained an added ironic meaning of<a class="footnote-ref" data-link="21"> “murky netherworld of spells, mysteries, mirages and all kinds of “natura” magic which belongs to the decidedly anti urban, Romantic imagination, but also to the “Ancien Régime”, with it’s rituals and Rasputins. It’s opiate and it’s masses: religious services that is, not people”.  <sup>21</sup></a> With this established, certain parts of humanity started concluding that “indeed, if we are now enlightened and reasonable, then why do we still fear certain things alike our uneducated ancestors?” <sup>22</sup> And as any thought at some point arises to radical transmutation, this feeling has also evolved to leave us with the whitewashing of everything negative today - and it doesn’t matter anymore how reasonable one is in choosing its' subject of “cleansing attention”. Thus, I’d sum up this paragraph with a question - how unexpectedly and wrong can it turn out if medical students would all switch from studying traditional cadavers to the digital ones? With the technological advancement allowing human species to study each other through scanned and digitalised images with its’ own benefits it is still missing all those things that make one human. No two bodies are alike and digital cadavers will never be able to teach empathy and respect for human being,  or to cover all, expected or not, imperfections, thus discounting intuition and analytical skills of future doctors.
+              <div class="note"> <sup>22</sup> Another common mistake of our species is that we also devalue nowadays our own history and approach it as “the past is a foreign country”. Each generation believes that we are absolute and the pick of our evolutions and judgement. But as mentioned before by Philippe Starck in his TED Talk “We have a way to look at Earth like that, you know, “I am the man. The final man. You know, we mutate during four billion years before, but now, because it’s me, we stop. Fin.”</div>
+              <br><br><br><br><br><br><br>
+              To be fair, we do have to admit that throughout history one can easily see the amount of wrong-doing and simple accidental (or not) mistakes that were made as a result of humanity giving in to the fear. And both pure logically and dialectically it is essential to go over this matter, thus driving us to a very contemporary and very urgent problematic of today that can serve as a great metaphor for the issue I am trying to expose in this paper - political correctness in the fear of black image.
+              <br><br>
+              We are raised being told: Racism is a “prejudice, discrimination, or antagonism directed against someone of a different race based on the belief that one's own race is superior”. But with recent studies showing that there is actually no genetic distinction between races, then what is it that hides behind the term Racism and what political correctness is aiming to defeat? <sup>23</sup> A good proposition could be, calling racism a socio-cultural response to the primal fear of unknown. And as we know, again it is one of the most fundamental tenets of evolutionary psychology. Although, it is important not to radicalise this idea and when we become conscious of our biases we can take active - and successful - steps to fight them. Now that the new definition is established, question arises, how does racism function? Animals have the same fear, but what differs them from us? Idea. A uniquely human phenomena that has quite often put us into odd position and led to unfavourable outcomes. But what’s crucial in this example for our discourse is - the way we tackle racism. Instead of embracing differences that we have the way Slavoj Zizek suggests, we came up with a whole new language of political correctness, and languages are far more consequential than we think.<a class="footnote-ref" data-link="24"> In an essay Contingencies of Reinforcement (1969) Burrhus Frederic Skinner suggested that humans could build linguistic stimuli which would then amass control over their behaviour in the same way an external stimuli could. <sup>24</sup></a> <a class="footnote-ref" data-link="25"> "Something that reinforces a behaviour makes it more likely that that behaviour will occur again, and something that punishes a behaviour makes it less likely that behaviour will occur again." <sup>25</sup></a> Question then occurs - does reinforcing the improper use of words, unification and deliberate extermination of descriptive words - lead only to further reinforcement of negativity and racism, just as radical positivism may on the contrary to its own aim be reinforcing equally radical fear and antagonism, by pushing it so hard and so far away? Looking through the original example in this paragraph,  what can be observed is that with the help of political correctness in a form of a tool, in a lot of occasions we are being manipulated into a discrete form of totalitarianism (as described by Slavoj Zizek). Reddit user “gulliblegambler” hits at this point considerably well:<a class="footnote-ref" data-link="26"> "So Zizek is saying the whole trick to controlling a society is making everyone agree to pretend we don't see each other for what we really are and to make everyone agree there are big personal costs associated with breaking this rule." <sup>26</sup></a> The biggest problem with political correctness is the fact, that no one questions it and fully understands its influence on our behaviour and language. "Ambiguity — that’s my problem with political correctness. <a class="footnote-ref" data-link="26">Now, it’s just a form of self-discipline which doesn’t really allow you to overcome racism. It’s just oppressed controlled racism." <sup>27</sup><a>
+              <br>
+              <div class="note"> <sup>23</sup> According to an evolutionary and population biologist at Washington University in St. Louis, Alan R. Templeton, while between-population and individ- ual variation exists, it is either too small, or it is not the right qualitative type of variation for molecular DNA research - it does not mark historical sublineages of humanity. After analysing millions of genetic sequences, Templeton concludes: “This very objective analysis shows the outcome is not even a close call: There’s nothing even like a really distinct subdivision of humanity.”[“Genetically Speaking, Race Doesn’t Exist In Humans”, Tony Fitzpatrick, EurekAlert - Global Source for Science News, 2018, https://goo.gl/GTMUTq] In fact, most morphological differ- ences that we wrongly attach to race, are consequences of rather simpler and more trivial aspects of our life, such as our historic food consumption patterns. On top of that, it became known now that there is actually more genetic diversity within Africa than in the rest of the world altogether, thus making arguments of human race existence even more absurd.</div>
+              <br><br><br><br><br><br><br><br><br><br><br>
+              In the rear, this is what we are doing with the radicalisation of positivistic movements becoming so dominant in the mainstream culture (for instance, have a look at the Pink Ribbon movement), <sup>28</sup> infiltrating our social, cultural and political aspects of life. It numbs our cognition and turns us blind, chaining humanity to one solid rock, so it doesn’t escape to discover something new. But on top of that, this creates comfortable circumstances for the humanity to fall under the same oppressed, controlled totalitarianism through such forms of delusional self-discipline.
+              <div class="note"> <sup>28</sup> This can be ironically (and very cynically and loosely) translated into the feud between artists Anish Kapoor and Stuart Semple over Vantablack and the World’s Pinkest Pink colors. The later one was created as a rebellious respond to the absolute power that A. Kapoor acquired over the Vantablack pigment; just as the Pink Ribbon symbol became a symbolic respite to the autocratic power of cancer over our health, similar to the one Kapoor has over the Blackest Black on Earth. Irony here is hidden also in the fact that as much as we believe and hide behind symbols (or build walls of legal contracts for customers as Stuart Semple did) in reality there will always be a response. Either in death or in the Pinkest Pink middle finger of Anish Kapoor.</div>
+              <br><br>
+
+
+                <div class="endquote">
+                <br>But thee I now admire, thee would I choose
+                <br>For my religion, or my Muse.
+                <br>Tis hard to tell whether thy reverend shade
+                <br>Has more good votaries or poets made,
+                <br>From thy dark caves were inspirations given,
+                <br>And from thick groves went vows to Heaven.
+                <br>Hail then, thou Muse’s and devotion’s spring!
+                <br>Tis just we should adore, ’tis just we should thee sing.<br>
+                <span class="author">(John Norris - Hymn to Darkness, 1657-1711)</span>
+                </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+            </a>
+
+
+            <a name="chapter5">
+              <span class="chaptertitle"> A POOR DEVIL</span>
+              <br><br>
+                <div class="startquote">
+                  “I am a portion full of energy,
+              <br>That still devising ill, still causes good to be.
+              <br>[…] I am the spirit that still denies;
+              <br>And rightly so: for whatsoe’er is wrought
+              <br>Is only fit to come to naught:
+              <br>And it were best, if there were no creation;
+              <br>Thus all that you call sin, annihilation,
+              <br>Evil, in short, is solely my vocation.
+              <br>[…]
+              <br>’Tis but the modest truth I speak to you:
+              <br>Although to foolish man’s conceit
+              <br>His world is perfect and complete.
+              <br>I am a part o’ the part, that once was everything;
+              <br>Part of the darkness, whence the light did spring,
+              <br>The haughty power, that now from Mother Night
+              <br>Would wrest the realm of space, her ancient right:
+              <br>Yet howsoe’er it strives, ’tis all in vain,
+              <br>In matter prisoned it must still remain […]”.<br>
+              <span class="author">(A Poor Devil, Johann Wolfgang von Goethe, Faust, I (1773-1774)) </span>
+              </div>
+              <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+              <a class="footnote-ref" data-link="29">“The evening hour too gives us the irresponsibility which darkness and lamplight bestow. We are no longer quite ourselves” <sup>29</sup></a> - we are becoming connected to the whole. To the One. To the Solid and Grand.
+              <br><br>
+              When talking about Day and Night it can be crucial to talk about Parmenides and Being in general, which I strongly believe, is a representation of the Night itself. However, for that we have to first outline the picture of the reality in front of us and try giving it a talkative shape, with taking Sphere as a metaphoric and metamorphic conceptual basis of our lives. Accepting the fact that this might sound obvious due to it being as old as human thinking exceeds, non-the-less one should (having accepted the fact that single veritas does not exist) understand that history has in reality no end and no beginning. <sup>30</sup> According to Parmenides, the only thing that is, is the One.<a class="footnote-ref" data-link="31"> The only true statement One can make is, ‘It is.’ <sup>31</sup></a>  The only shape One can be imagined as - is Sphere. If one was to imagine that Sphere and the rest of our existence with it - then he/she would be facing a “being” with no end, no beginning, no right or left, no top and bottom. From its’ own perspective it will not have any coordination in space it is contained in. That is One. THE Sphere. And the endless space around it that is the One as well. But with that one would also see dust, microscopic prisms, coming from all directions and into all directions as well. Occasionally those dust particles would fall and stay on the surface of the Sphere. Landing with no scripted rules, layering on top of each other aimlessly - they create subtle bas-relieves.<a class="footnote-ref" data-link="31"> These bas-relieves cast shadows and create forms that we as humans confuse for truths because (according to Parmenides) we are not born with the skill of seeing the full picture and in order to process information we need to segregate it into smaller perceptive particles. <sup>32</sup></a> Thus what we see and understand as reality is just a meagre detail of the cast that is covering and taking shape of the Sphere, of the One, gradually. And in this way Day and Light altogether can be seen as those “confusion truths” and particular perceptions, whilst Night is when we become one and from where revolutions and innovation come.
+              <div class="note"> <sup>30</sup>Here I am referring mainly to people that fortunately or not are not familiar with the philosophical thinking yet or for any other reasons. </div>
+              <br><br><br><br>
+              This is also why black color is the color of protest, since all new interpretations (such as alterations, inquiry and rebellions) come from the One, from the Night. A time of the day when our own, over-lit and saturated, sub-reality is connected back to the origin, and for a split second we become One. A cup that we all take a sip from. We meet up in secret gatherings to discuss overthrowing of the kings at the dusk, most artist and musicians create their masterpieces and are the most productive at night and Leonardo da Vinci’s grave-diggers were retrieving corpses at night in order  for the artist to study anatomy and evolve. <sup>33</sup> Thus black is not simply a sign of aggression of unheard teen spirit as contemporary family psychology suggests, but rather a sign of totality, analysis and change.
+              <div class="note"> <sup>33</sup>This is relevant to the earlier career of Leonardo da Vinci, as eventually he was able to receive special permission through a hospital director to continue his studies through looking at cadavers. </div>
+              <br><br><br><br>
+              Look above, to the extract from the Faust. Night today is our Poor Devil. It is (metaphorically speaking) everything but is not treated as such, although from darkness did light spring, it is our Mother Night that we are trying to strip down of her “ancient right to wrest the realm of space”, with exaggerated positivity and blank smiles and mandatory collectivism that does everything opposite of creating diversity. Somehow we subconsciously connect Night and Nocturnus to the phenomenon of ugliness (which includes aggression, suffering and etc. …), although some can not help but to wander if ugliness isn’t, in reality, indispensable for our thinking? It might be, and I strongly believe that serious, crispiest and sustained questioning arrises out of (or through) a consciousness of one’s own ugliness.<a class="footnote-ref" data-link="34"> Be it individual or collective. <sup>34</sup></a>
+              <br><br>
+              Besides, next to discussing the Totality of the Night, one shall not forget as well the role it plays in the understanding of our Universe as a physical entity. Astronomical one. No matter what planet the actuality of day and night is payable to the rotation of a celestial body about its  own axis, thus creating an image of the sun rising and setting. However, various bodies spin at highly different rates, for example, on our Earth, an average night lasts shorter than daytime due to two factors. First of all, our planet’s atmosphere refracts light from the sun and thus some of it reaches Earth’s ground when the Sun is below the horizon by about 34 archminutes. Second of all, the Sun's apparent disk is not a point and it bears an angular diameter of around 32 arcminutes. The combination of these two factors means that light reaches the ground when the centre of the solar disk is below the horizon by about 50 archminutes. If these effects would not have taken place, daytime and night  time would become the same length on both equinoxes (the moments when the Sun appears to contact the celestial equator), <a class="footnote-ref" data-link="35"> as then daytime still lasts almost 14 minutes longer than night does at the Equator thus it is never equal. <sup>35</sup></a> On top of that, equinoxes themselves are an interesting phenomena, also for their symbolic representations through history of humanity. For centuries considered as a time of struggle and fight between the light and darkness, good and bad, life and death, these days are the end point of the Suns’ journey to get there, the universes’ journey, which can signify that in the end we can not give our preference to one, but have to find ways of keeping the struggle alive.
+              <br><br>
+
+            </a>
+
+            <a name="chapter6">
+              <span class="chaptertitle"> THE SCHIZOPHRENIC SUN HAS AN INNER NIGHT STITCHING IT TOGETHER </span>
+              <br><br>
+              With all that said, our civilisation decided to come up with its’ own, radical solution to the absent desire for being realistic. The concept of “Smile or Die” as Barbara Ehrenreich puts it. <sup>36</sup> It is a deeply rooted and popularised concept nowadays in the “personal development” circles. Continuously we are flooded with a plenty of self-help books describing to us the power of positive thinking, emphasising on special seminars and personal “human well-being” coach sessions. It’s all about the positive outlook on life, and it is such a vivid and saturated picturing of escapism, that it becoming popular among mainstream public almost turns it into a mandatory outlook on life, because their message can not be any more clearer: “Positive thinking will bring you to happiness and will make sure your dreams come true”.
+              <div class="note"> <sup>36</sup> Barbara Ehrenreich is an American author and political activist who de- scribes herself as “a myth buster by trade” [Lamb, Brian (Interviewer) (18 October 1989). “Fear of Falling: The Inner Life of the Middle Class: Barbara Ehrenreich Interview Transcript”. Booknotes (CSPAN). Retrieved 8 May 2011.] and is a widely read and award-winning columnist and essayist, and author of 21 books.</div>
+              <br><br><br><br><br>
+              And this, being such an easy preach, became a popular manipulative tool as well (especially in the capitalist world we are present at now). Leaders are now, from the first steps, trained and essentially deluded to be positive no matter what, inspiring people that follow them and in such joyful collective outburst of happiness - success should be born. <a class="footnote-ref" data-link="37">“We are to polish the brass on the Titanic even after ramming into the proverbial iceberg.” <sup>37</sup></a> Unfortunately  we can assume that the seeds to this tendency have been grounded into fertile soil of fear centuries ago, with the first class separations and creation of hierarchy in humanity. <a class="footnote-ref" data-link="38">Friedrich Nietzsche in his book “On the Genealogy of Morality” mentions how the distinction of the ‘good’ and ‘bad’ has long been asserted to differences between humans. <sup>38</sup></a> Where the definition of ‘good’ has been strongly associated with nobility and priests whilst bad then automatically was becoming a representation of the commoner. Who want’s to be a commoner, what does your ego say? Nobody, right? Then you should be good! And this is what (in particular instances) positive thinking is appealing to in people. I guess, we can connect it in alike manner? But this would take a whole different thesis discussion, so we will drop this here as a rhetoric bonus question.
+              <br><br>
+              On the other side, we do have to be fair and admit that originally, the idea of forced positivism was meant to help people overcome obstacles they face in be it their personal or professional lives. However, the problematic of it became visible rather quickly. The greater concern here is in the fact that such mode of thought forces you to re-imagine reality in a not so fruitful way.  In order to be a perfect follower of this ideology you need to completely reshape any narrative into a story that always has a happy ending, put the blindfolds over your eyes and actually (and very much ironically)  <a class="footnote-ref" data-link="39">elude yourself into the state of sight loss (which, according to Freud in ‘The Uncanny’, is one of the primal fears as well) whilst being on the run from original fear of fear. <sup>39</sup></a> “Re-configuring reality is usually meant to persuade someone of something or to sell (sometimes literally) them on a belief of viewpoint.  Marketers call this “spin”.  <a class="footnote-ref" data-link="37"> Spin is the jargon for re-invention of truth or reality in order to profit from the outcome of changing the audience’s mindset about some particular idea.” <sup>40</sup></a> This way of thinking leaves nothing to our cognition left to deal with. In case if such tendency will prevail, our progression as the human race will become endangered for the majority of Earth’s population. This table is way to lit and merely more than one of our senses is enough to easily consume information about objects laying on it. There is no stimuli for function. The brain will die soon.
+              <br><br>
+              Thus, this is where the influence and value of Nocturnus comes back again. As it has been already mentioned above, Nocturnal Culture and Night are in first place, highly associated with the darkest muddiest colors and primarily - black image. Color black and any dark or black image have a lot of connotations in global human culture as we see and what’s more interesting - have very diverse and quite often opposite to each other meanings. Even if simply taking the representation of death through colors - we can easily see the broad spectre of possibilities, from traditional western black mourning clothes to white, red and purple. Humanity can not continue walking up the hill of categoric thinking, pardon this paper for being obvious - but the world is not black and white, and as much as people love clowns, they also fear them the most. Darkness is so ambiguous that it demands us to observe, analyse and judge, even if it comes out of fear for survival or fear of hunger (be we locked in a pitch-black room with food hidden for 24 hours).
+              <br><br>
+              In this whole hysteria over “negative people poisoning our society” public has forgotten the actual meanings and diversity of this color, or better to say, the absence of colors. When something is absent - you are obliged to search for it. And this is how our reality is built - on continuous questioning.
+              <br><br>
+              Simply look at the world Black next to its’ etymology. Next to the more common translations from Old English and Proto-Germanic origins signifying black as “dark”, “ink” “burn” there is one very important definition - “to shine, blaze or glow”. What is this if not a dazzling metaphor for the whole Nocturnus?
+              <br><br>
+
+            </a>
+
+            <a name="chapter7">
+              <span class="chaptertitle">  Image of Black Becomes an Entity </span>
+              <br><br>
+               <a class="footnote-ref" data-link="41">“Whenever its name has been anything but a jest, philosophy has been haunted by a subterranean question: What if knowledge were a means to deepen unknowing? It is this question alone that has differentiated it from the shallow things of the earth. Yet the glory and also the indignity of philosophy is to have sought the end of knowing, and no more.” <sup>41</sup></a> Darkness, ambiguity and uncertainty are essential to us and of course, all of this has to be always discussed and considered strictly with regards to their respective contexts. Contextualisation is vital in any discourse since everything is the Universe, yet nothing is universal.
+              <br><br>
+              I most often laugh when being told “be more specific, yet don’t be judgmental”. Not being judgmental most likely would be like death as judgment is the result of observation and observation can vary from a slight unsure glance at the mirror to archeological excavations without any assurance of findings. Is it this? Is it here? Why? And simple “no, let’s think of a different possible name” can be great compellers for us to seek improvement.
+              <br><br>
+              To conclude, Sun and Earth are connected, floating together in a peculiar relationship submerged in the deepest darkest and infinite universe. Together for as much as it may be, they dance years long, sending energy impulses towards each other and if one would position them next to each other, picturing those impulses touching the surfaces of these celestial bodies - he or she could recognise a pretty familiar shape. An eight. A little charming infinity sign floating in the pitch dark One (and being One if you wish). Before I end here this ambiguous manifesto to everything uncertain and gloomy, let me share an intriguing story with you. The number 8 is most commonly thought to be a propitious number by many numerologists.  <a class="footnote-ref" data-link="42">If you would take the square of any odd number, less one - it will always be a multiple of 8, a fact that can be proved mathematically. <sup>42</sup></a> And just as number eight is being ever-present as a red thread in the world of numerology, same way Night and Nocturnus are inherited and deeply rooted in the texture of our existence, hereby having their “ancient right” to “wrest the realm” of our society.
+              <br><br>
+
+        </a>
+
+          </div>
+
+          <div id="image-large" class="pic-wrap"></div>
+
+
+
+  </body>
+</html>

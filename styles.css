@@ -1,0 +1,327 @@
+/*@@media print {
+
+
+
+  @page {
+    size: A4 portrait;
+  }
+}*/
+  * {
+  	margin:0;
+  	padding:0;
+
+  }
+
+  html, body { height: 100% }
+  html { background: black }
+  body {
+
+
+    font-family: 'SuisseIntl-Book' sans-serif;
+  	font-weight: 300;
+     background-image: url("hjk.png");
+  	background-color: #242424;
+  	height: 100vh;
+  	font-size: 12pt;
+  	line-height: 16pt;
+  	color: red;
+
+  	}
+
+
+
+
+      #title{
+        margin-left: 5vw;
+        margin-top: 4vh ;
+        font-family: 'Oroban-Masuria', serif;
+        position: fixed;
+        font-size: 25pt;
+        text-transform: uppercase;
+        text-align: left;
+        line-height: 11pt;
+        width: 40%;
+        color: white;
+        letter-spacing: 0.6px;
+        z-index: 900;
+        /*background-color: black;
+        border: thin solid black;*/
+        border-width: 20px;
+      }
+
+
+
+			/*#abstracttext {
+				background-color: #EAEAEA;
+				left: -200%;
+				width: 100vw;
+				height: 100vh;
+			}*/
+
+      #footnotes {
+        margin-left: 65vw;
+        font-size: 15pt;
+        font-family: 'SuisseIntlTrial-Book' sans-serif;
+        line-height: 20pt;
+        color: white;
+        letter-spacing: 0.6px;
+        background-color: black;
+				position:fixed;
+				overflow-y:scroll;
+				overflow-x:hidden;
+				width: 35%;
+        height: 100%;
+				border: thin solid black;
+      	border-width: 20px;
+
+        -webkit-filter: drop-shadow(-1px 0px 2px #FEE501);
+            filter: drop-shadow( -1px 0px 2px #FEE501);
+      }
+
+      .flink {
+        text-decoration: none;
+        color: white;
+      }
+
+
+      #images{
+				position:fixed;
+				overflow-y:scroll;
+				overflow-x:hidden;
+				/*background-color: #1C1C1C;*/
+				width: 60vw;
+        height: 100%;
+				margin-left: 3vw;
+				margin-top: 8vh;
+
+        -webkit-filter: drop-shadow(-1px 0px 2px #FEE501);
+            filter: drop-shadow( -1px 0px 2px #FEE501);
+			}
+
+      #image-large {
+        position: fixed;
+        top: 0; left: 0;
+        bottom: 0; right: 0;
+        /*border-top: solid white 2px;
+        border-left: solid white 2px;
+        border-right: solid white 2px;*/
+        background-color: rgba(0,0,0,0.7);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: none;
+        z-index: 999999999 !important;
+      }
+
+
+
+
+
+			#printbutton {
+      	margin-left: 59vw;
+      	margin-top: 15vh;
+        background-color: black;
+        align-items: center;
+        border: solid black 1px;
+      	position: fixed;
+        font-size: 12pt;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: 'Oroban-Masuria', serif;
+        text-align: left;
+      	line-height: 11pt;
+      	width: 3vw;
+      	color: white;
+      	letter-spacing: 0.6px;
+      	z-index: 900;
+      	border-width: 20px;
+      }
+
+
+            embed {
+          position: fixed;
+          top: 20px; left: 20px;
+          bottom: 20px; right: 20px;
+          width: calc(100% - 40px);
+          height: calc(100% - 40px);
+          z-index: 99999999999999 !important;
+          display: none;
+      }
+      embed.show { display: inline-block }
+
+      #printoverlay {
+          position: fixed;
+          top: 10vh; left: 10vw;
+          bottom: 0; right: 0;
+          content: '';
+          background: rgba(0,0,0,0.7);
+          display: none;
+
+      }
+
+      #printoverlay.show { display: inline-block }
+
+
+
+      #menu{
+        left: 37,5vw;
+      	margin-top: 30vh ;
+				bottom: 2%;
+      	position: fixed;
+        font-family: 'Oroban-Masuria', serif;
+				text-transform: uppercase;
+      	font-size: 10pt;
+      	line-height: 11pt;
+      	width: 48vw;
+				height: 5vh;
+      	color: white;
+      	letter-spacing: 0.3px;
+      	z-index: 200;
+      	background-color: black;
+      	border: thin solid black;
+      	border-width: 5px;
+        text-decoration: none;
+        z-index: 900;
+
+      }
+
+        /*.select{
+          text-decoration: none;
+
+        }*/
+
+				img {
+					max-width: 100%;
+					max-height: 100%;
+          margin-bottom: 10px;
+				}
+
+      .maintext {
+
+      	letter-spacing: 0.3px;
+        font-weight: 300;
+      	border: thin solid white;
+      	border-width: 30px;
+      	background-color: white;
+      	max-width: 45%;
+      	font-size: 15pt;
+        font-weight: 400;
+      	line-height: 18pt;
+        /*text-indent: 40px;*/
+      	width: 43%;
+        height: 70%;
+        max-height: 80%;
+      	color: black;
+      	z-index: 100;
+      	top: 20vh;
+      	 left: 38vw;
+          /*bottom:1.5%;*/
+          position:fixed;
+          overflow-y:scroll;
+          overflow-x:hidden;
+
+          -webkit-filter: drop-shadow(2px 2px 2px #FEE501);
+            filter: drop-shadow(2px 2px 2px #FEE501);
+      }
+
+      sup {
+        font-size: 10pt;
+        line-height: 12pt;
+        color: #FEE501;
+        font-weight: bold;
+      }
+
+      .note {
+          margin-top: 15px;
+          text-align: right;
+          font-size: 10pt;
+          line-height: 11pt;
+          color: #FEE501;
+          width:70%;
+          float: right;
+      }
+
+
+
+      .startquote {
+        float: left;
+        font-family: 'Oroban-Masuria', serif;
+        margin-top: 15px;
+        font-size: 17pt;
+        line-height: normal;
+        text-align: left;
+        width: 80%;
+        margin: 10px;
+      }
+
+      .endquote {
+        float: right;
+        margin-top: 15px;
+        /*font-weight: bold;*/
+        font-family: 'Oroban-Masuria', serif;
+        font-size: 17pt;
+        line-height: normal;
+        text-align: right;
+        width: 90%;
+        margin: 10px;
+      }
+
+      .author {
+        font-family: 'Oroban-MasuriaItalic', serif;
+        font-size: 12pt;
+        line-height: 12pt;
+      }
+
+      .chaptertitle {
+        font-weight: bold;
+        font-size: 20pt;
+      }
+
+
+
+
+      #footnotes:hover {
+        z-index: 800;
+
+      }
+
+      #main:hover {
+        z-index: 800;
+      }
+
+      #images:hover {
+        z-index: 800;
+      }
+
+
+
+      .tooltip {
+    position: relative;
+    float: top;
+    display: inline-block;
+    border-bottom: 1px solid black;
+  }
+
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 65%;
+    background-color: black;
+    color: #fff;
+    text-align: left;
+    font-size: 8pt;
+    top: -5px;
+    left: 0%;
+    top: 85%;
+    padding: 5px 0;
+    opacity: 0;
+  transition: opacity 2s;
+  border: solid black 2px;
+  padding-left: 9px;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }

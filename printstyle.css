@@ -1,0 +1,151 @@
+@media print {
+
+
+
+  @page {
+    size: A4 portrait;
+  }
+}*/
+  * {
+  	margin:0;
+  	padding:0;
+    width: 842px;
+    height: 595px;
+
+  }
+
+  html, body { height: 100% }
+  html { background: black }
+  body {
+
+
+    font-family: 'SuisseIntlTrial-Book' sans-serif;
+  	font-weight: 300;
+  	background-color: #242424;
+  	height: 100vh;
+  	font-size: 12pt;
+  	line-height: 16pt;
+  	color: red;
+
+  	}
+
+
+      #abstract {
+        margin-left: 5vh;
+        margin-top: 18vh ;
+        font-family: 'Oroban-Hermonthica', serif;
+        position: fixed;
+        font-size: 25pt;
+        text-transform: uppercase;
+        text-align: right;
+        line-height: 11pt;
+        width: 5%;
+        color: white;
+        letter-spacing: 0.6px;
+        z-index: 200;
+        /*background-color: black;
+        border: thin solid black;*/
+        border-width: 20px;
+      }
+
+      #sources {
+        margin-left: 5vh;
+        margin-top: 90vh ;
+        position: fixed;
+        font-size: 25pt;
+        text-transform: uppercase;
+        font-family: 'Oroban-Hermonthica', serif;
+        line-height: 11pt;
+        width: 5%;
+        color: white;
+        letter-spacing: 0.6px;
+        z-index: 200;
+        /*background-color: black;
+        border: thin solid black;*/
+        border-width: 20px;
+      }
+
+      #aboutproject {
+        margin-left: 80vw;
+        margin-top: 28vh ;
+        position: fixed;
+        font-size: 25pt;
+        text-transform: uppercase;
+        font-family: 'Oroban-Hermonthica', serif;
+        text-align: right;
+        line-height: 11pt;
+        width: 30%;
+        color: white;
+        letter-spacing: 0.6px;
+        z-index: 200;
+        /*background-color: black;
+        border: thin solid black;*/
+        border-width: 20px;
+      }
+      #print {
+      	margin-left: 93vw;
+      	margin-top: 90vh ;
+      	position: fixed;
+        font-size: 25pt;
+        text-transform: uppercase;
+        font-family: 'Oroban-Hermonthica', serif;
+        text-align: left;
+      	line-height: 11pt;
+      	width: 5%;
+      	color: white;
+      	letter-spacing: 0.6px;
+      	z-index: 200;
+      	/*background-color: black;
+      	border: thin solid black;*/
+      	border-width: 20px;
+      }
+
+      #chapterselection{
+        margin-left: 80vw;
+      	margin-top: 30vh ;
+      	position: fixed;
+        font-family: 'Oroban-Hermonthica', serif;
+      	font-size: 9pt;
+      	line-height: 11pt;
+      	width: 18%;
+      	color: white;
+      	letter-spacing: 0.3px;
+      	z-index: 200;
+      	background-color: black;
+      	border: thin solid black;
+      	border-width: 20px;
+
+      }
+
+        .select{
+          text-decoration: none;
+        }
+
+
+      .maintext {
+
+      	letter-spacing: 0.3px;
+        font-weight: 300;
+      	border: thin solid white;
+      	border-width: 30px;
+      	background-color: white;
+      	max-width: 45%;
+      	font-size: 15pt;
+        font-weight: 400;
+      	line-height: 18pt;
+        text-indent: 40px;
+      	width: 45%;
+        height: 70%;
+        max-height: 80%;
+      	color: black;
+      	z-index: 3;
+      	top: 20vh;
+      	 left: 70vh;
+          bottom:1.5%;
+          position:fixed;
+          overflow-y:scroll;
+          overflow-x:hidden;
+      }
+
+
+    }
